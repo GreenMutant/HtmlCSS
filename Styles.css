@@ -1,0 +1,118 @@
+body{ background-color: #B5DAFE;} 
+p { color: #374649; } 
+h1{ color: rgb(19, 0, 65); }
+h5{ color: rgb(30, 0, 99); }
+ol,ul {
+	list-style: none;
+}
+#logo {
+    float: left;
+    text-align: left;
+	margin: 25px;
+	width: 100px;
+    height: 50px;
+    top: 30px;
+	font-family: sans-serif;
+}
+#home {
+    float: right;
+    text-align: left;
+	margin: 40px;
+	width: 50px;
+    right: 100px;
+    left: 500px;
+    height: 50px;
+    top: 30px;
+	font-family: sans-serif;
+}
+#mainMenu {
+    position: absolute;
+    text-align: center;
+	margin: 15px;
+	width: 500px;
+    height: 0px;
+    left: 250px;
+    top: 0px;
+	font-family: sans-serif;
+    
+}
+
+#mainMenu a {
+    float: left;
+	display: inline;
+	padding:3px;
+    height: 10px;
+	text-decoration:none;
+	background-color:#fff;
+	color:rgb(0, 0, 61);
+    
+}
+#mainMenu a:hover {
+	background-color:rgb(2, 2, 85);
+	color:#fff;
+    height: 15px;
+}
+
+#header {
+    height: 100px;
+    position: fixed;
+    width: 1024px;
+    background: white;
+    top: 0;
+    opacity: 1;
+    z-index: 9999;
+    font-family: sans-serif;
+  }
+  #content {
+    position: absolute;
+    float: left;
+    padding: 60px;
+    top: 120px;
+    width: 400px;
+    padding-top: 60px;
+    font-family: sans-serif;
+  }
+  #article1 {
+    position: absolute;
+    float: left;
+    padding: 60px;
+    top: 120px;
+    width: 600px;
+    padding-top: 60px;
+    font-family: sans-serif;
+  }
+  #article2 {
+    position: absolute;
+    float: left;
+    padding: 60px;
+    top: 650px;
+    width: 600px;
+    padding-top: 60px;
+    font-family: sans-serif;
+    
+  }
+  #content2 {
+    background-color: #a5c8eb;
+    position: fixed;
+    float: right;
+    padding: 60px;
+    min-height: 400px;
+    top: 100px;
+    left: 680px;
+    width: 232px;
+    padding-top: 20px;
+    width: 400;
+    z-index: 9999;
+    font-family: sans-serif;
+    text-transform: uppercase;
+  }
+  #footer {
+    position:relative;
+    width: 600px;
+    height: 100px;
+    margin: 0px;
+    top: 800px;
+    bottom:0;
+    text-align: center;
+    font-family: sans-serif;
+  }
