@@ -67,7 +67,7 @@ ol,ul {
  border-radius:5px;
  display: inline-block;
  top: 125px;
- left: 295px;
+ left: 275px;
  position: absolute;
 }	
 #button_reset .shadow:hover
@@ -95,7 +95,7 @@ ol,ul {
  border-radius:5px;
  display: inline-block;
  top: 125px;
- left: 445px;
+ left: 425px;
  position: absolute;
 }	
 #button_submit .shadow:hover
