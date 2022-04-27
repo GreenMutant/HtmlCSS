@@ -127,7 +127,6 @@ ol,ul {
 }
 #content {
     position: relative;
-    top: 60px;
     padding-top: 50px;
     display:inline-block;
     font-family: sans-serif;
@@ -137,7 +136,7 @@ ol,ul {
     position: relative;
     left: 150px;
     top: 150px;
-    padding-top: 50px;
+    padding-top: 60px;
     padding: 30px;
     display:inline-block;
     font-family: sans-serif;
@@ -147,32 +146,42 @@ ol,ul {
     background-color: #a5c8eb;
     color: rgb(30, 0, 99);
 }
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.flex > div {
+  background-color: #e3faff;
+  width: 700px;
+  height: 600px;
+  margin: 10px;
+  
+}
 #article1 {
     max-width: 1024px;
     margin: auto;
     padding: 0px;
     right: 50%;
-    margin-right: -150px;
+    margin-right: -210px;
     position: absolute;
     float: left;
     padding: 60px;
     top: 100px;
     width: 600px;
-    padding-top: 60px;
+    padding-top: 90px;
     font-family: sans-serif;
 }
 #article2 {
     max-width: 1024px;
     margin: auto;
-    padding: 10px;
+    padding: 0px;
     right: 50%;
-    margin-right: -150px;
-    position: absolute;
-    float: left;
+    margin-right: -360px;
+    position: relative;
+    float: bottom;
     padding: 60px;
-    top: 650px;
     width: 600px;
-    padding-top: 60px;
+    padding-top: 20px;
     font-family: sans-serif;
 }
 #content2 {
