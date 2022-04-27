@@ -2,32 +2,44 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Fundamental</title>
+        <title>TravelAdvices | LogIn</title>
+        <link rel="stylesheet" type="text/css" href="Styles.css">
     </head>
 
 <body>
     <font face = "arial" </font>
-    <header>
-    <h1>Page Name</h1>
+    <header id="header">
+    <h1 id="logo">Travel::Advices</h1>
     <nav>
-        <ul>
-            <li><h5><a href="www.blablabla1.com">link1</a></h5></li>
-            <li><h5><a href="www.blablabla2.com">link2</a></h5></li>
-            <li><h5><a href="www.blablabla3.com">link3</a></h5></li>
+        <ul id="mainMenu">
+            <li><h5><a href="http://www.sj.se">&emsp;SJ&emsp;</a></h5></li>
+            <li><h5><a href="http://www.viamichelin.com">&emsp;VIAMICHELIN&emsp;</a></h5></li>
+            <li><h5><a href="http://www.booking.com">&emsp;BOOKING&emsp;</a></h5></li>
         </ul>
     </nav>
-    <h5><a href="https://github.com/GreenMutant/FrontEnd/Index.html">Home</a></h5>
+    <h5 id="home"><a href="Index.html">HOME</a></h5>
     </header>
-    <div class="container"></div>
-        <h2>Login</h2>
-        <form action="/action_page.php">
+    <div >
+        <h2 id="inlog"><font color = "#02055A">Login</font></h2>
+        <br>
+        <form id="inlog" action="/action_page.php">
             <h5>
                 <label for="fname">Name:</label>
                 <input type="text" id="fname" name="fname">
+                &emsp;
                 <label for="pword">Password:</label>
                 <input type="text" id="fname" name="pword">
-                <input type="reset" value="Reset">
-                <input type="submit" value="Submit">
+                &emsp;
+                <figure>
+                    <div id="button_reset">
+                        <input type="button" class="shadow" value="reset">
+                    </div>
+                </figure>
+                <figure>
+                    <div id="button_submit">
+                        <input type="button" class="shadow" value="submit">
+                    </div>
+                </figure>
             </h5>
         </form>
     </div>
