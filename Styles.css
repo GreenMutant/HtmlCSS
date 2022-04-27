@@ -145,6 +145,7 @@ ol,ul {
     border: 20px;
     border-radius: 10px;
     background-color: #a5c8eb;
+    color: rgb(30, 0, 99);
 }
 #article1 {
     max-width: 1024px;
