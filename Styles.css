@@ -1,7 +1,12 @@
-body{ background-color: #B5DAFE;} 
+body{ background-color: #B5DAFE;}
 p { color: #4f53a3; } 
 h1{ color: rgb(19, 0, 65); }
 h5{ color: rgb(30, 0, 99); }
+.content {
+  max-width: 1024px;
+  margin: auto;
+  padding: 10px;
+}
 ol,ul {
 	list-style: none;
 }
@@ -107,20 +112,22 @@ ol,ul {
 }
 
 #header {
+  max-width: 1024px;
+  margin: auto;
+  background: white;
+  padding: 0px;
     height: 100px;
     position: fixed;
     width: 1024px;
-    background: white;
+    
     top: 0;
-    left: 150px;
+    
     opacity: 1;
     z-index: 9999;
     font-family: sans-serif;
   }
   #content {
     position: relative;
-    float: left;
-    left: 150px;
     top: 60px;
     padding-top: 50px;
     display:inline-block;
@@ -142,51 +149,70 @@ ol,ul {
     background-color: #a5c8eb;
   }
   #article1 {
+    max-width: 1024px;
+    margin: auto;
+    padding: 0px;
+    right: 50%;
+    margin-right: -150px;
     position: absolute;
     float: left;
     padding: 60px;
     top: 100px;
-    left: 90px;
     width: 600px;
     padding-top: 60px;
     font-family: sans-serif;
   }
   #article2 {
+    max-width: 1024px;
+    margin: auto;
+    padding: 10px;
+    right: 50%;
+    margin-right: -150px;
     position: absolute;
     float: left;
     padding: 60px;
     top: 650px;
-    left: 90px;
     width: 600px;
     padding-top: 60px;
     font-family: sans-serif;
   }
   #content2 {
+    max-width: 1024px;
+    margin: auto;
+    left: 50%;
+    margin-left: 240px;
+    padding: 70px;
+    padding-left: 30px;
+    padding-right: 110px;
     background-color: #a5c8eb;
     position: fixed;
-    float: right;
-    padding: 60px;
-    min-height: 400px;
+    float: left;
+    height: 100%;
     top: 100px;
-    left: 823px;
-    width: 232px;
+    width: 132px;
     padding-top: 20px;
     width: 400;
     z-index: 9999;
     font-family: sans-serif;
     text-transform: uppercase;
+    text-align: left;
+
   }
   #footer {
-    background-color: #ffffff;
+    max-width: 1024px;
+    margin: auto;
+    background: white;
+    padding: 0px;
     position: relative;
     width: 1024px;
     height: 30px;
     margin: 0px;
     top: 850px;
-    left: 143px;
     bottom:0;
     padding-top: 10px;
     clear: both;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 9999;
     text-align: center;
     font-family: sans-serif;
