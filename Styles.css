@@ -50,24 +50,6 @@ ol,ul {
     height: 15px;
 }
 
-#wrapper
-{
- margin:0 auto;
- padding:0px;
- text-align:center;
- width:995px;
-}
-#wrapper h1
-{
- margin-top:50px;
- font-size:45px;
- color:#34495E;
-}
-#wrapper h1 p
-{
-font-size:18px;
-}
-
 #button_reset input[type="button"]
 {
  background-color:none;
@@ -80,7 +62,7 @@ font-size:18px;
 }
 #button_reset .shadow
 {
- background-color:#1e214d;
+ background-color:#630b0b;
  transition: all 0.35s ease;
  border-radius:5px;
  display: inline-block;
@@ -90,10 +72,10 @@ font-size:18px;
 }	
 #button_reset .shadow:hover
 {
- border: 1px solid #1e214d;
+ border: 1px solid #630b0b;
  background-color:white;
- color:#1e214d;
- box-shadow:0px 0px 25px 0px #1e214d;
+ color:#630b0b;
+ box-shadow:0px 0px 25px 0px #630b0b;
 }
 
 #button_submit input[type="button"]
@@ -108,7 +90,7 @@ font-size:18px;
 }
 #button_submit .shadow
 {
- background-color:#1e214d;
+ background-color:#0b631a;
  transition: all 0.35s ease;
  border-radius:5px;
  display: inline-block;
@@ -118,12 +100,11 @@ font-size:18px;
 }	
 #button_submit .shadow:hover
 {
- border: 1px solid #1e214d;
+ border: 1px solid #0b631a;
  background-color:white;
- color:#1e214d;
- box-shadow:0px 0px 25px 0px #1e214d;
+ color:#0b631a;
+ box-shadow:0px 0px 25px 0px #0b631a;
 }
-
 
 #header {
     height: 100px;
@@ -160,17 +141,6 @@ font-size:18px;
     border-radius: 10px;
     background-color: #a5c8eb;
   }
-  #form-buttons {
-    background: #0066A2;
-    color: white;
-    border-style: outset;
-    border-color: #0066A2;
-    height: 50px;
-    width: 100px;
-    font: bold15px arial,sans-serif;
-    text-shadow: none;
-    border-radius: 10px;
-    }
   #article1 {
     position: absolute;
     float: left;
