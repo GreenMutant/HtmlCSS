@@ -152,7 +152,7 @@ ol,ul {
 .flex > div {
     background-color: #e3faff;
     width: 650px;
-    height: 600px;
+    height: flex;
     margin: 0px;
   
 }
