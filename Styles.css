@@ -157,32 +157,9 @@ ol,ul {
   margin: 10px;
   
 }
-#article1 {
-    max-width: 1024px;
-    margin: auto;
-    padding: 0px;
-    right: 50%;
-    margin-right: -210px;
-    position: absolute;
-    float: left;
-    padding: 60px;
-    top: 100px;
-    width: 600px;
-    padding-top: 90px;
-    font-family: sans-serif;
-}
-#article2 {
-    max-width: 1024px;
-    margin: auto;
-    padding: 0px;
-    right: 50%;
-    margin-right: -360px;
-    position: relative;
-    float: bottom;
-    padding: 60px;
-    width: 600px;
-    padding-top: 20px;
-    font-family: sans-serif;
+#article {
+  padding: 20px;
+  font-family: sans-serif;
 }
 #content2 {
     max-width: 1024px;
